@@ -1,0 +1,16 @@
+---
+title: "Leonardo Carletto"
+subtitle: "Statistics undergraduate · UFLA"
+image: profile.png
+sidebar: false
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: github
+      href: https://github.com/leocarletto
+    - icon: linkedin
+      href: https://www.linkedin.com/in/leocarletto/
+---
+
+Short bio goes here. (Fixed page — edit this text.)

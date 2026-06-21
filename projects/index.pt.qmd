@@ -1,0 +1,30 @@
+---
+title: "Projects"
+listing:
+  - id: publications
+    contents: "publications/*/index.pt.qmd"
+    type: default
+    image-align: left
+    date-format: "DD MMMM YYYY"
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: packages
+    contents: "packages/*/index.pt.qmd"
+    type: grid
+    grid-columns: 4
+    image-height: 200px
+    sort-ui: false
+    filter-ui: false
+---
+
+## Publications
+
+::: {#publications}
+:::
+
+## Packages
+
+::: {#packages}
+:::

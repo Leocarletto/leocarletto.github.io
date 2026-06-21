@@ -1,0 +1,9 @@
+---
+title: "Modelo de exemplo"
+date: "2026-01-11"
+categories: ["modelo"]
+description: "Modelo estatístico / preditivo."
+image: cover.png
+---
+
+Conteúdo da análise aqui.

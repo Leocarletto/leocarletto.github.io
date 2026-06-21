@@ -1,26 +1,31 @@
 project:
   type: website
-  output-dir: docs                  
+  output-dir: docs            # served from main branch /docs on GitHub Pages
+
 website:
-  title: "Leonardo Carletto"          
+  title: "Leo Carletto"
   site-url: "https://leocarletto.github.io"
   navbar:
-    background: "#1B1B1B"             
     pinned: true
     right:
-      - text: "Sobre"
-        href: sobre.qmd
+      - text: "About"
+        file: about/index.qmd
       - text: "Blog"
-        href: index.qmd
-      - text: "Projetos"
-        href: projetos.qmd
+        file: index.qmd
+      - text: "Projects"
+        file: projects/index.qmd
+  page-footer:
+    right:
+      - icon: github
+        href: https://github.com/leocarletto
+      - icon: linkedin
+        href: https://www.linkedin.com/in/leocarletto/
 
 format:
   html:
-    theme:
-      - litera
-      - styles.scss                   #
-    highlight-style: tomorrow-night-bright-r-classic.theme
-    include-after-body: footer.html   
+    theme: [cosmo, styles.scss]
     toc: false
-    lang: pt-br
+    include-after-body: lang-toggle.html
+
+execute:
+  freeze: auto

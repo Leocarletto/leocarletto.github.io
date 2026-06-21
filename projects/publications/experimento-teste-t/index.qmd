@@ -1,0 +1,9 @@
+---
+title: "Example experiment (t-test)"
+date: "2026-01-12"
+categories: ["experiment", "t-test"]
+description: "Design and analysis of an experiment."
+image: cover.png
+---
+
+Analysis content goes here.

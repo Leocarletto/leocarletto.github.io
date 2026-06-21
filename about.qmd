@@ -1,8 +1,0 @@
----
-title: "About"
----
-
-<!-- EDITE: seu texto de apresentação. -->
-
-Estudante de Estatística na UFLA, com foco em análise exploratória de dados,
-estatística aplicada e visualização em R e Quarto.

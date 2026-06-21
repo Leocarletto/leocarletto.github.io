@@ -1,0 +1,9 @@
+---
+title: "AED de exemplo"
+date: "2026-01-10"
+categories: ["AED"]
+description: "Análise exploratória de um conjunto de dados."
+image: cover.png
+---
+
+Conteúdo da análise aqui.

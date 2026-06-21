@@ -1,0 +1,9 @@
+---
+title: "Example EDA"
+date: "2026-01-10"
+categories: ["EDA"]
+description: "Exploratory data analysis of a dataset."
+image: cover.png
+---
+
+Analysis content goes here.

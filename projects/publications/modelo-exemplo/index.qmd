@@ -1,0 +1,9 @@
+---
+title: "Example model"
+date: "2026-01-11"
+categories: ["model"]
+description: "Statistical / predictive model."
+image: cover.png
+---
+
+Analysis content goes here.

@@ -1,0 +1,7 @@
+---
+title: "examplepkg"
+description: "An R package for something."
+image: logo.png
+---
+
+![](logo.png){fig-alt="examplepkg hex logo"}

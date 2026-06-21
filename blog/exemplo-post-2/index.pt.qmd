@@ -1,0 +1,9 @@
+---
+title: "Post de exemplo 2"
+date: "2026-01-02"
+categories: ["nota"]
+description: "Descrição de uma linha do post."
+image: cover.png
+---
+
+Conteúdo do post aqui.

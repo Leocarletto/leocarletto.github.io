@@ -1,0 +1,9 @@
+---
+title: "Experimento de exemplo (teste t)"
+date: "2026-01-12"
+categories: ["experimento", "teste t"]
+description: "Planejamento e análise de um experimento."
+image: cover.png
+---
+
+Conteúdo da análise aqui.

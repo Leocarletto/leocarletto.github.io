@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Example post 2\n\n\n\nnote\n\n\n\nOne-line description of the post.\n\n\n\n\n\n02 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExample post 1\n\n\n\nnote\n\n\n\nOne-line description of the post.\n\n\n\n\n\n01 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/publications/modelo-exemplo/index.html",
+    "href": "projects/publications/modelo-exemplo/index.html",
+    "title": "Example model",
+    "section": "",
+    "text": "Analysis content goes here."
+  },
+  {
+    "objectID": "projects/publications/experimento-teste-t/index.html",
+    "href": "projects/publications/experimento-teste-t/index.html",
+    "title": "Example experiment (t-test)",
+    "section": "",
+    "text": "Analysis content goes here."
+  },
+  {
+    "objectID": "projects/publications/eda-exemplo/index.html",
+    "href": "projects/publications/eda-exemplo/index.html",
+    "title": "Example EDA",
+    "section": "",
+    "text": "Analysis content goes here."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "experiment\n\nt-test\n\n\n\nDesign and analysis of an experiment.\n\n\n\n\n\n12 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmodel\n\n\n\nStatistical / predictive model.\n\n\n\n\n\n11 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDA\n\n\n\nExploratory data analysis of a dataset.\n\n\n\n\n\n10 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#publications",
+    "href": "projects/index.html#publications",
+    "title": "Projects",
+    "section": "",
+    "text": "experiment\n\nt-test\n\n\n\nDesign and analysis of an experiment.\n\n\n\n\n\n12 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmodel\n\n\n\nStatistical / predictive model.\n\n\n\n\n\n11 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDA\n\n\n\nExploratory data analysis of a dataset.\n\n\n\n\n\n10 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#packages",
+    "href": "projects/index.html#packages",
+    "title": "Projects",
+    "section": "Packages",
+    "text": "Packages\n\n\n\n\n\n\n\n\n\n\nexamplepkg\n\n\nAn R package for something.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.pt.html",
+    "href": "index.pt.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post de exemplo 2\n\n\n\nnota\n\n\n\nDescrição de uma linha do post.\n\n\n\n\n\n02 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPost de exemplo 1\n\n\n\nnota\n\n\n\nDescrição de uma linha do post.\n\n\n\n\n\n01 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.pt.html",
+    "href": "blog/index.pt.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post de exemplo 2\n\n\n\nnota\n\n\n\nDescrição de uma linha do post.\n\n\n\n\n\n02 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPost de exemplo 1\n\n\n\nnota\n\n\n\nDescrição de uma linha do post.\n\n\n\n\n\n01 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/exemplo-post-2/index.pt.html",
+    "href": "blog/exemplo-post-2/index.pt.html",
+    "title": "Post de exemplo 2",
+    "section": "",
+    "text": "Conteúdo do post aqui."
+  },
+  {
+    "objectID": "blog/exemplo-post-1/index.pt.html",
+    "href": "blog/exemplo-post-1/index.pt.html",
+    "title": "Post de exemplo 1",
+    "section": "",
+    "text": "Conteúdo do post aqui."
+  },
+  {
+    "objectID": "about/index.pt.html",
+    "href": "about/index.pt.html",
+    "title": "Leonardo Carletto",
+    "section": "",
+    "text": "Bio curta aqui. (Página fixa — edite este texto.)"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Leonardo Carletto",
+    "section": "",
+    "text": "Short bio goes here. (Fixed page — edit this text.)"
+  },
+  {
+    "objectID": "blog/exemplo-post-1/index.html",
+    "href": "blog/exemplo-post-1/index.html",
+    "title": "Example post 1",
+    "section": "",
+    "text": "Post content goes here."
+  },
+  {
+    "objectID": "blog/exemplo-post-2/index.html",
+    "href": "blog/exemplo-post-2/index.html",
+    "title": "Example post 2",
+    "section": "",
+    "text": "Post content goes here."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Example post 2\n\n\n\nnote\n\n\n\nOne-line description of the post.\n\n\n\n\n\n02 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExample post 1\n\n\n\nnote\n\n\n\nOne-line description of the post.\n\n\n\n\n\n01 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.pt.html",
+    "href": "projects/index.pt.html",
+    "title": "Projects",
+    "section": "",
+    "text": "experimento\n\nteste t\n\n\n\nPlanejamento e análise de um experimento.\n\n\n\n\n\n12 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmodelo\n\n\n\nModelo estatístico / preditivo.\n\n\n\n\n\n11 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAED\n\n\n\nAnálise exploratória de um conjunto de dados.\n\n\n\n\n\n10 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.pt.html#publications",
+    "href": "projects/index.pt.html#publications",
+    "title": "Projects",
+    "section": "",
+    "text": "experimento\n\nteste t\n\n\n\nPlanejamento e análise de um experimento.\n\n\n\n\n\n12 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmodelo\n\n\n\nModelo estatístico / preditivo.\n\n\n\n\n\n11 January 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAED\n\n\n\nAnálise exploratória de um conjunto de dados.\n\n\n\n\n\n10 January 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.pt.html#packages",
+    "href": "projects/index.pt.html#packages",
+    "title": "Projects",
+    "section": "Packages",
+    "text": "Packages\n\n\n\n\n\n\n\n\n\n\nexamplepkg\n\n\nUm pacote de R para alguma coisa.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/publications/eda-exemplo/index.pt.html",
+    "href": "projects/publications/eda-exemplo/index.pt.html",
+    "title": "AED de exemplo",
+    "section": "",
+    "text": "Conteúdo da análise aqui."
+  },
+  {
+    "objectID": "projects/publications/experimento-teste-t/index.pt.html",
+    "href": "projects/publications/experimento-teste-t/index.pt.html",
+    "title": "Experimento de exemplo (teste t)",
+    "section": "",
+    "text": "Conteúdo da análise aqui."
+  },
+  {
+    "objectID": "projects/publications/modelo-exemplo/index.pt.html",
+    "href": "projects/publications/modelo-exemplo/index.pt.html",
+    "title": "Modelo de exemplo",
+    "section": "",
+    "text": "Conteúdo da análise aqui."
+  }
+]

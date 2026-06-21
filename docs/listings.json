@@ -1,0 +1,48 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/publications/experimento-teste-t/index.html",
+      "/projects/publications/modelo-exemplo/index.html",
+      "/projects/publications/eda-exemplo/index.html",
+      "/projects/packages/exemplo-pacote/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.pt.html",
+    "items": [
+      "/blog/exemplo-post-2/index.pt.html",
+      "/blog/exemplo-post-1/index.pt.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/exemplo-post-2/index.html",
+      "/blog/exemplo-post-1/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.pt.html",
+    "items": [
+      "/projects/publications/experimento-teste-t/index.pt.html",
+      "/projects/publications/modelo-exemplo/index.pt.html",
+      "/projects/publications/eda-exemplo/index.pt.html",
+      "/projects/packages/exemplo-pacote/index.pt.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/exemplo-post-2/index.html",
+      "/blog/exemplo-post-1/index.html"
+    ]
+  },
+  {
+    "listing": "/index.pt.html",
+    "items": [
+      "/blog/exemplo-post-2/index.pt.html",
+      "/blog/exemplo-post-1/index.pt.html"
+    ]
+  }
+]

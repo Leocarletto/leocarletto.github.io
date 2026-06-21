@@ -2,17 +2,11 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/packages/exemplo-pacote/index.html",
+      "/projects/eda-inmetro/index.html",
       "/projects/publications/experimento-teste-t/index.html",
       "/projects/publications/modelo-exemplo/index.html",
-      "/projects/publications/eda-exemplo/index.html",
-      "/projects/packages/exemplo-pacote/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/exemplo-post-2/index.html",
-      "/blog/exemplo-post-1/index.html"
+      "/projects/publications/eda-exemplo/index.html"
     ]
   },
   {
@@ -20,6 +14,31 @@
     "items": [
       "/blog/exemplo-post-2/index.pt.html",
       "/blog/exemplo-post-1/index.pt.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/projects/eda-inmetro/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.es.html",
+    "items": [
+      "/projects/eda-inmetro/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.pt.html",
+    "items": [
+      "/projects/eda-inmetro/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/exemplo-post-2/index.html",
+      "/posts/exemplo-post-1/index.html"
     ]
   },
   {

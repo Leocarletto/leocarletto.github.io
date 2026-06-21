@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -40,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-434823127cc8d2156123acffd735ffcf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-775441c3f03028997b1a7e25d96c50b3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4e242649c2d689c2baca3daf3c308609.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1a093d02b8a4b3c0a6575f6fb30b9b18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -87,35 +88,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-packages .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-packages'] = new List('listing-packages', options);
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -168,7 +141,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a href="https://leocarletto.github.io" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.png" alt="" class="navbar-logo light-content">
+    <img src="../logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="https://leocarletto.github.io">
     <span class="navbar-title">Leo Carletto</span>
     </a>
   </div>
@@ -178,17 +155,41 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about/index.html">
+ <span class="dropdown-text">English</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../about/index.pt.html">
+ <span class="dropdown-text">Português</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../about/index.es.html">
+ <span class="dropdown-text">Español</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../gallery/index.html"> 
+<span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/leocarletto"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -198,13 +199,13 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="RURB">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwZXJpbWVudA==">experiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWw=">model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dC10ZXN0">t-test <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RURB">EDA <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZXhwZXJpbWVudA==">experiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2dwbG90Mg==">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWw=">model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dC10ZXN0">t-test <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -213,7 +214,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -225,11 +226,59 @@ window.Quarto = {
 </header>
 
 
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<div id="listing-publications" class="quarto-listing quarto-listing-container-default">
+<div id="listing-projects" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="ZXhwZXJpbWVudCUyQ3QtdGVzdA==" data-listing-date-sort="1768186800000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1782075475604" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail"><a href="../projects/packages/exemplo-pacote/index.html" class="no-external">
+
+<img loading="lazy" src="../projects/packages/exemplo-pacote/logo.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projects/packages/exemplo-pacote/index.html" class="no-external">examplepkg</a>
+</h3>
+<div class="delink listing-description"><a href="../projects/packages/exemplo-pacote/index.html" class="no-external">
+<p>An R package for something.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../projects/packages/exemplo-pacote/index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="RURBJTJDUXVhcnRvJTJDZ2dwbG90Mg==" data-listing-date-sort="1782010800000" data-listing-file-modified-sort="1782075733428" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<div class="thumbnail"><a href="../projects/eda-inmetro/index.html" class="no-external">
+
+<img loading="lazy" src="../projects/eda-inmetro/capa.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projects/eda-inmetro/index.html" class="no-external">INMETRO PBEV 2026 — CO2 VEICULAR EDA</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RURB'); return false;">EDA</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2dwbG90Mg=='); return false;">ggplot2</div>
+
+</div>
+<div class="delink listing-description"><a href="../projects/eda-inmetro/index.html" class="no-external">
+<p>Exploratory data analysis of vehicular CO₂ emissions using the INMETRO PBEV 2026 dataset. Built in Quarto with ggplot2.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../projects/eda-inmetro/index.html" class="no-external">
+<div class="listing-date">
+21 June 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-categories="ZXhwZXJpbWVudCUyQ3QtdGVzdA==" data-listing-date-sort="1768186800000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <div class="thumbnail"><a href="../projects/publications/experimento-teste-t/index.html" class="no-external">
 
 <img loading="lazy" src="../projects/publications/experimento-teste-t/cover.png" class="thumbnail-image">
@@ -258,7 +307,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="bW9kZWw=" data-listing-date-sort="1768100400000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="quarto-post image-left" data-index="3" data-categories="bW9kZWw=" data-listing-date-sort="1768100400000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <div class="thumbnail"><a href="../projects/publications/modelo-exemplo/index.html" class="no-external">
 
 <img loading="lazy" src="../projects/publications/modelo-exemplo/cover.png" class="thumbnail-image">
@@ -285,7 +334,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="RURB" data-listing-date-sort="1768014000000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="quarto-post image-left" data-index="4" data-categories="RURB" data-listing-date-sort="1768014000000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <div class="thumbnail"><a href="../projects/publications/eda-exemplo/index.html" class="no-external">
 
 <img loading="lazy" src="../projects/publications/eda-exemplo/cover.png" class="thumbnail-image">
@@ -315,39 +364,9 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
-<section id="packages" class="level2">
-<h2 class="anchored" data-anchor-id="packages">Packages</h2>
-<div id="listing-packages" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782062522000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<a href="../projects/packages/exemplo-pacote/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../projects/packages/exemplo-pacote/logo.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-examplepkg
-</h5>
-<div class="card-text listing-description delink">
-<p>An R package for something.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,74 +1,100 @@
 /*-- scss:defaults --*/
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inconsolata:wght@200..900&display=swap');
-$font-family-sans-serif:  "Crimson Text" !default;
-$font-family-serif:       "Crimson Text" !default;
-$font-family-monospace:   "Inconsolata" !default;
-$font-size-base:          0.92rem !default;
-// Links
-$link-color:            #E1955F !default;
-$link-hover-color:      darken(#E1955F, 12%) !default;
+
+// ===== Fonte: Cascadia Code (via fontsource / jsDelivr) =====
+@font-face {
+  font-family: "Cascadia Code";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/cascadia-code@latest/latin-300-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cascadia Code";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/cascadia-code@latest/latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cascadia Code";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/cascadia-code@latest/latin-600-normal.woff2") format("woff2");
+}
+
+$font-family-sans-serif: "Cascadia Code", "Cascadia Mono", ui-monospace, SFMono-Regular, monospace !default;
+$font-family-serif:      "Cascadia Code", ui-monospace, monospace !default;
+$font-family-monospace:  "Cascadia Code", ui-monospace, SFMono-Regular, monospace !default;
+$font-size-base:         0.85rem !default;
+$headings-font-weight:   600 !default;
+
+// ===== Cores (laranja) =====
+$primary:               #C8612B !default;
+$link-color:            #C8612B !default;
+$link-hover-color:      darken(#C8612B, 12%) !default;
 $link-decoration:       none;
-$link-hover-decoration: none;
+$link-hover-decoration: underline;
+
+body { font-weight: 300; }
+
 /*-- scss:rules --*/
-// Nav bar / dropdown
-.dropdown-item {
-  color: #2B2423;
-}
-.dropdown-text {
-  color: #FFFFFF;
-}
-// Typography
-h1.title {
-  font-family: "Crimson Text";
-  font-size: 30px;
-}
-p.subtitle.lead {
-  text-align: center;
-}
+
+// Tipografia
+h1, h2, h3, h4, h5 { font-family: "Cascadia Code"; letter-spacing: -0.02em; }
+h1.title { font-family: "Cascadia Code"; font-size: 1.6rem; }
+p.subtitle.lead { text-align: center; }
+
 // Navbar
-.navbar {
-  color: #FFFFFF;
+.navbar { color: #FFFFFF; }
+.navbar-title, .navbar-brand { color: #FFFFFF; font-family: "Cascadia Code"; }
+a.sidebar-item-text.sidebar-link { color: #FFFFFF; }
+.navbar li.dropdown-header { text-transform: none; }
+
+// Logo (foto de perfil) redonda
+.navbar-brand img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.navbar-title {
-  color: #FFFFFF;
-  font-family: "Crimson Text";
+
+// Dropdown do navbar (corrige texto branco em fundo branco)
+.navbar .dropdown-menu { background-color: #FFFFFF; }
+.navbar .dropdown-menu .dropdown-item { color: #2B2423 !important; }
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: #C8612B;
+  color: #FFFFFF !important;
 }
-a.sidebar-item-text.sidebar-link {
-  color: #FFFFFF;
+
+// Listings / categorias
+.quarto-listing-category,
+.quarto-listing-category-title { font-family: "Cascadia Code"; }
+
+// Botões (Website / Repositório)
+.btn-primary {
+  background-color: #C8612B;
+  border-color: #C8612B;
 }
-.navbar li.dropdown-header {
-  text-transform: none;
-}
-// Listings
-.quarto-listing-category {
-  font-family: "Crimson Text";
-}
-.quarto-listing-category-title {
-  font-family: "Crimson Text";
-}
-// Code
+.btn-primary:hover { background-color: darken(#C8612B, 8%); border-color: darken(#C8612B, 8%); }
+.btn-outline-primary { color: #C8612B; border-color: #C8612B; }
+.btn-outline-primary:hover { background-color: #C8612B; color: #FFFFFF; }
+
+// Código
 code {
   background-color: #000000 !important;
   color: #eeeeee !important;
-  padding: 2px 4px 2px 4px !important;
+  padding: 2px 4px !important;
   border-radius: 4px !important;
 }
-code span.sc,
-code span.op,
-code span.kw {
-  color: #70c0b2 !important;
-}
-// Banner do topo do post (use ![legenda](img){.banner})
-img.banner {
-  width: 100%;
-  object-fit: cover;
-  max-height: 240px;
-}
-.banner ~ figcaption,
+code span.sc, code span.op, code span.kw { color: #70c0b2 !important; }
+
+// Banner de topo (![legenda](img){.banner})
+img.banner { width: 100%; object-fit: cover; max-height: 240px; }
 figure:has(img.banner) figcaption {
-  font-family: "Crimson Text", serif;
-  font-size: 0.95rem;
+  font-family: "Cascadia Code";
+  font-size: 0.8rem;
   color: #6c757d;
   text-align: left;
 }

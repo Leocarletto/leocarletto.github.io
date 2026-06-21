@@ -14,15 +14,23 @@
   </url>
   <url>
     <loc>https://leocarletto.github.io/projects/packages/exemplo-pacote/index.html</loc>
-    <lastmod>2026-06-21T17:22:02.000Z</lastmod>
+    <lastmod>2026-06-21T20:57:55.604Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/projects/index.html</loc>
-    <lastmod>2026-06-21T17:22:02.000Z</lastmod>
+    <lastmod>2026-06-21T20:42:34.672Z</lastmod>
   </url>
   <url>
-    <loc>https://leocarletto.github.io/index.html</loc>
-    <lastmod>2026-06-21T18:43:10.733Z</lastmod>
+    <loc>https://leocarletto.github.io/projects/eda-inmetro/index.html</loc>
+    <lastmod>2026-06-21T21:02:51.943Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leocarletto.github.io/posts/exemplo-post-1/index.html</loc>
+    <lastmod>2026-06-21T20:00:36.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leocarletto.github.io/index.pt.html</loc>
+    <lastmod>2026-06-21T18:43:42.183Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/blog/exemplo-post-2/index.html</loc>
@@ -34,11 +42,15 @@
   </url>
   <url>
     <loc>https://leocarletto.github.io/about/index.html</loc>
-    <lastmod>2026-06-21T17:22:00.000Z</lastmod>
+    <lastmod>2026-06-21T20:42:21.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leocarletto.github.io/about/index.es.html</loc>
+    <lastmod>2026-06-21T20:42:21.085Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/about/index.pt.html</loc>
-    <lastmod>2026-06-21T17:22:00.000Z</lastmod>
+    <lastmod>2026-06-21T20:42:21.084Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/blog/exemplo-post-1/index.pt.html</loc>
@@ -49,8 +61,16 @@
     <lastmod>2026-06-21T17:22:01.000Z</lastmod>
   </url>
   <url>
-    <loc>https://leocarletto.github.io/index.pt.html</loc>
-    <lastmod>2026-06-21T18:43:42.183Z</lastmod>
+    <loc>https://leocarletto.github.io/gallery/index.html</loc>
+    <lastmod>2026-06-21T20:01:04.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leocarletto.github.io/index.html</loc>
+    <lastmod>2026-06-21T20:00:36.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leocarletto.github.io/posts/exemplo-post-2/index.html</loc>
+    <lastmod>2026-06-21T20:00:36.361Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/projects/index.pt.html</loc>
@@ -58,7 +78,7 @@
   </url>
   <url>
     <loc>https://leocarletto.github.io/projects/packages/exemplo-pacote/index.pt.html</loc>
-    <lastmod>2026-06-21T17:22:02.000Z</lastmod>
+    <lastmod>2026-06-21T20:57:55.604Z</lastmod>
   </url>
   <url>
     <loc>https://leocarletto.github.io/projects/publications/eda-exemplo/index.pt.html</loc>

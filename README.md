@@ -1,36 +1,33 @@
 # leocarletto.github.io
 
-Quarto website scaffold. Structure only — design/content to be added later.
+Personal Quarto website. Pages: Posts (home), Gallery, Projects, About (EN/PT/ES).
+Font: Cascadia Code. Theme: orange. Pure markdown — rendering needs only Quarto.
 
-## Build (dual language)
+## IMPORTANT: put your photo as `logo.png`
+Place your GitHub profile photo as `logo.png` in the project root.
+It is used as: navbar logo, browser-tab favicon, and the About page photo.
+(This file is intentionally NOT in the archive so it never overwrites yours.)
 
-Main language is English (`index.qmd`); Portuguese is the toggle (`index.pt.qmd`).
-Each page keeps both languages as sibling files inside the same folder.
-
-```r
-install.packages("babelquarto", repos = c("https://ropensci.r-universe.dev", "https://cloud.r-project.org"))
-babelquarto::render_website(".")
+## Build & deploy
+```bash
+quarto render
+git add -A
+git commit -m "update site"
+git push
 ```
-
-Output goes to `docs/`. On GitHub: Settings → Pages → Source: `main` / `/docs`.
-The EN/PT switch link is added to the navbar automatically by babelquarto.
+GitHub → Settings → Pages → Deploy from a branch → main / docs.
 
 ## Structure
-
 ```
-about/        About page (fixed bio, jolla template)
-blog/         Blog listing + one folder per post
-projects/     Projects landing (Publications + Packages)
-  publications/   one folder per publication (EDA, model, experiment...)
-  packages/       one folder per R package
+index.qmd                  Posts listing (home)
+posts/<post>/index.qmd     one folder per post
+gallery/index.qmd          Quarto Gallery page
+projects/index.qmd         Projects listing (cards)
+projects/eda-inmetro/      EDA project page (capa.jpg + Website/Repository buttons)
+about/index.qmd            About EN  (photo + intro + latest projects)
+about/index.pt.qmd         About PT
+about/index.es.qmd         About ES
+styles.scss                Cascadia Code + orange theme
+tomorrow-night-bright-r-classic.theme   code highlight
+logo.png                   YOUR photo (add it yourself)
 ```
-
-Footer: GitHub + LinkedIn only.
-
-## Why Publications is separate from Blog
-
-Blog = short, informal notes/writing.
-Publications = formal statistical deliverables (EDA, models, designed
-experiments / t-tests) presented as portfolio pieces — each with a cover image,
-grouped under Projects next to Packages, using a listing geared toward
-analysis artifacts rather than chronological posts.

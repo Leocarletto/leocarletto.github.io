@@ -1,0 +1,19 @@
+---
+title: "Gallery"
+toc: true
+---
+
+Content I made with Quarto.
+
+## Reports
+
+- INMETRO PBEV 2026 — Vehicular CO₂ emissions EDA:
+  <https://leocarletto.github.io/INMETRO_PBEV2026_eda/relatorio.html>
+
+## Presentations
+
+- (add your slides here)
+
+## Websites
+
+- This site: <https://leocarletto.github.io>

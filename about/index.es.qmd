@@ -1,6 +1,6 @@
 ---
 title: "Leonardo Carletto"
-subtitle: "Graduando em Estatística · UFLA"
+subtitle: "Estudiante de Estadística · UFLA"
 image: "https://github.com/leocarletto.png"
 sidebar: false
 about:
@@ -26,10 +26,10 @@ listing:
     fields: [image, title, description, categories]
 ---
 
-Graduando em **Estatística** na **UFLA** (Universidade Federal de Lavras),
-com foco em **análise de dados**, **visualização** e **estatística aplicada** com R e Quarto.
+Estudiante de **Estadística** en la **UFLA** (Universidad Federal de Lavras, Brasil),
+enfocado en **análisis de datos**, **visualización** y **estadística aplicada** con R y Quarto.
 
-## Últimos projetos
+## Últimos proyectos
 
 ::: {#latest}
 :::

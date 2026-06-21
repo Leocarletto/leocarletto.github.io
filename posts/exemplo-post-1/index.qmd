@@ -1,0 +1,9 @@
+---
+title: "Example post 1"
+date: "2026-01-01"
+categories: [R, note]
+description: "One-line description of the post."
+image: cover.png
+---
+
+Post content goes here.

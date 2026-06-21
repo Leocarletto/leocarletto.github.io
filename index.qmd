@@ -1,13 +1,15 @@
 ---
-title: "Blog"
+title: "Posts"
 listing:
-  contents: blog/*/index.qmd
+  contents: posts/*/index.qmd
   type: default
   image-align: left
   date-format: "DD MMMM YYYY"
   sort: "date desc"
   categories: true
-  sort-ui: false
-  filter-ui: false
+  sort-ui: true
+  filter-ui: true
   feed: true
+page-layout: full
+title-block-banner: false
 ---

@@ -1,0 +1,16 @@
+---
+title: "INMETRO PBEV 2026 — CO2 VEICULAR EDA"
+description: "Exploratory data analysis of vehicular CO₂ emissions using the INMETRO PBEV 2026 dataset. Built in Quarto with ggplot2."
+date: "2026-06-21"
+categories: [EDA, Quarto, ggplot2]
+image: capa.jpg
+---
+
+## Materials
+
+[Report](https://leocarletto.github.io/INMETRO_PBEV2026_eda/relatorio.html){.btn .btn-primary role="button" target="_blank"}
+[Repository](https://github.com/Leocarletto/INMETRO_PBEV2026_eda){.btn .btn-outline-primary role="button" target="_blank"}
+[Apresentation](https://github.com/Leocarletto/INMETRO_PBEV2026_eda){.btn .btn-outline-primary role="button" target="_blank"}
+
+
+![Image: "Are efforts to reduce carbon dioxide emissions working? How would we know?* — ARCHIVED · NASA Climate Change."](capa.jpg){fig-alt="Cover of the INMETRO PBEV 2026 vehicular CO₂ EDA report"}

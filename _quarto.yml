@@ -1,19 +1,35 @@
 project:
   type: website
-  output-dir: docs            # served from main branch /docs on GitHub Pages
+  output-dir: docs            # GitHub Pages: main / docs
 
 website:
   title: "Leo Carletto"
   site-url: "https://leocarletto.github.io"
+  favicon: "https://github.com/leocarletto.png"
   navbar:
     pinned: true
+    background: "#C8612B"
+    foreground: "#FFFFFF"
+    logo: "https://github.com/leocarletto.png"
+    logo-href: "https://leocarletto.github.io"
     right:
       - text: "About"
-        file: about/index.qmd
-      - text: "Blog"
+        menu:
+          - text: "English"
+            file: about/index.qmd
+          - text: "Português"
+            file: about/index.pt.qmd
+          - text: "Español"
+            file: about/index.es.qmd
+      - text: "Posts"
         file: index.qmd
+      - text: "Gallery"
+        file: gallery/index.qmd
       - text: "Projects"
         file: projects/index.qmd
+      - icon: github
+        href: https://github.com/leocarletto
+        aria-label: GitHub
   page-footer:
     right:
       - icon: github
@@ -24,8 +40,8 @@ website:
 format:
   html:
     theme: [cosmo, styles.scss]
+    highlight-style: tomorrow-night-bright-r-classic.theme
     toc: false
-    include-after-body: lang-toggle.html
 
 execute:
-  freeze: auto
+  freeze: false

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Leo Carletto</title>
+<title>Leonardo Carletto – Leo Carletto</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-775441c3f03028997b1a7e25d96c50b3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1a093d02b8a4b3c0a6575f6fb30b9b18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-775441c3f03028997b1a7e25d96c50b3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1a093d02b8a4b3c0a6575f6fb30b9b18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +74,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-latest .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-latest'] = new List('listing-latest', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -132,9 +131,9 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="Leo Carletto" href="index.pt.xml" data-external="1"></head>
+</head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -142,8 +141,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://leocarletto.github.io" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo light-content">
-    <img src="./logo.png" alt="" class="navbar-logo dark-content">
+    <img src="../logo.png" alt="" class="navbar-logo light-content">
+    <img src="../logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="https://leocarletto.github.io">
     <span class="navbar-title">Leo Carletto</span>
@@ -161,29 +160,29 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about/index.html">
+    <a class="dropdown-item" href="../about/index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/index.pt.html">
+    <a class="dropdown-item" href="../about/index.pt.html">
  <span class="dropdown-text">Português</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/index.es.html">
+    <a class="dropdown-item" href="../about/index.es.html">
  <span class="dropdown-text">Español</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gallery/index.html"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item compact">
@@ -202,102 +201,69 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bm90YQ==">nota <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="../logo.png" class="about-image
+  round " style="height: 12em; width: 12em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Leonardo Carletto</h1>
+<p class="subtitle lead">Estudiante de Estadística · UFLA</p>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="bm90YQ==" data-listing-date-sort="1767322800000" data-listing-file-modified-sort="1782062521000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail"><a href="./blog/exemplo-post-2/index.pt.html" class="no-external">
-
-<img loading="lazy" src="./blog/exemplo-post-2/cover.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/exemplo-post-2/index.pt.html" class="no-external">Post de exemplo 2</a>
-</h3>
+    <div class="about-links">
+  <a href="https://github.com/leocarletto" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="https://www.linkedin.com/in/leocarletto/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>Estudiante de <strong>Estadística</strong> en la <strong>UFLA</strong> (Universidad Federal de Lavras, Brasil), enfocado en <strong>análisis de datos</strong>, <strong>visualización</strong> y <strong>estadística aplicada</strong> con R y Quarto.</p>
+<section id="últimos-proyectos" class="level2">
+<h2 data-anchor-id="últimos-proyectos">Últimos proyectos</h2>
+<div id="listing-latest" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RURBJTJDUXVhcnRvJTJDZ2dwbG90Mg==" data-listing-date-sort="1782010800000" data-listing-file-modified-sort="1782074554677" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<a href="../projects/eda-inmetro/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/eda-inmetro/capa.jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+INMETRO PBEV 2026 — Vehicular CO₂ EDA
+</h5>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90YQ=='); return false;">nota</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('RURB'); return false;">EDA</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Z2dwbG90Mg=='); return false;">ggplot2</div>
 </div>
-<div class="delink listing-description"><a href="./blog/exemplo-post-2/index.pt.html" class="no-external">
-<p>Descrição de uma linha do post.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/exemplo-post-2/index.pt.html" class="no-external">
-<div class="listing-date">
-02 January 2026
-</div>
-</a>
+<div class="card-text listing-description delink">
+<p>Exploratory data analysis of vehicular CO₂ emissions using the INMETRO PBEV 2026 dataset. Built in Quarto with ggplot2.</p>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="bm90YQ==" data-listing-date-sort="1767236400000" data-listing-file-modified-sort="1782062520000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail"><a href="./blog/exemplo-post-1/index.pt.html" class="no-external">
-
-<img loading="lazy" src="./blog/exemplo-post-1/cover.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/exemplo-post-1/index.pt.html" class="no-external">Post de exemplo 1</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90YQ=='); return false;">nota</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/exemplo-post-1/index.pt.html" class="no-external">
-<p>Descrição de uma linha do post.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/exemplo-post-1/index.pt.html" class="no-external">
-<div class="listing-date">
-01 January 2026
-</div>
-</a>
-</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+
+
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

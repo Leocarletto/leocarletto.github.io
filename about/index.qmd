@@ -1,16 +1,35 @@
 ---
 title: "Leonardo Carletto"
 subtitle: "Statistics undergraduate · UFLA"
-image: profile.png
+image: "https://github.com/leocarletto.png"
 sidebar: false
 about:
-  template: jolla
-  image-shape: rectangle
+  template: trestles
+  image-shape: round
+  image-width: 12em
   links:
     - icon: github
+      text: GitHub
       href: https://github.com/leocarletto
     - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/leocarletto/
+listing:
+  - id: latest
+    contents: "../projects/*/index.qmd"
+    type: grid
+    max-items: 6
+    image-height: 180px
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, description, categories]
 ---
 
-Short bio goes here. (Fixed page — edit this text.)
+Statistics undergraduate at **UFLA** (Federal University of Lavras, Brazil),
+focused on **data analysis**, **visualization**, and **applied statistics** with R and Quarto.
+
+## Latest projects
+
+::: {#latest}
+:::

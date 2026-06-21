@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Leonardo Carletto"          # EDITE: nome/título do site (aparece à esquerda da navbar)
+  site-url: "https://leocarletto.github.io"
+  navbar:
+    background: "#1B1B1B"             # navbar escura (estilo da inspiração). Remova esta linha p/ usar a cor do tema.
+    pinned: true
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+  # search: false                     # descomente para tirar a busca (a navbar fica só com os 3 itens)
+
+format:
+  html:
+    theme:
+      - litera
+      - styles.scss                   # seu tema (precisa estar na raiz do projeto)
+    highlight-style: tomorrow-night-bright-r-classic.theme
+    include-after-body: footer.html   # seu rodapé com o ícone do GitHub
+    toc: false
+    lang: pt-br

@@ -1,0 +1,13 @@
+---
+title: "Posts"
+listing:
+  contents: posts          # pasta com os posts (cada post: posts/<slug>/index.qmd)
+  sort: "date desc"
+  type: default            # miniatura à esquerda + título/descrição/data à direita
+  categories: true         # índice de categorias na margem direita
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, description]
+  feed: true
+page-layout: article
+---

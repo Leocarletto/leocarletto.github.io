@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs                  
+website:
+  title: "Leonardo Carletto"          
+  site-url: "https://leocarletto.github.io"
+  navbar:
+    background: "#1B1B1B"             
+    pinned: true
+    right:
+      - text: "Sobre"
+        href: sobre.qmd
+      - text: "Blog"
+        href: index.qmd
+      - text: "Projetos"
+        href: projetos.qmd
+
+format:
+  html:
+    theme:
+      - litera
+      - styles.scss                   #
+    highlight-style: tomorrow-night-bright-r-classic.theme
+    include-after-body: footer.html   
+    toc: false
+    lang: pt-br
